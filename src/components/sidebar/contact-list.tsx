@@ -5,6 +5,7 @@ interface ContactListProps {
   data: UserData[];
   setActiveChatId: (id: string) => void;
 }
+
 export const ContactList = ({ data, setActiveChatId }: ContactListProps) => {
   return (
     <div className="w-full h-12">
